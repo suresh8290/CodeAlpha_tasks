@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<h1>Image Gallery</h1>
+
+<div class="filter-buttons">
+    <button onclick="filterImages('all')">All</button>
+    <button onclick="filterImages('nature')">Nature</button>
+    <button onclick="filterImages('city')">City</button>
+    <button onclick="filterImages('animals')">Animals</button>
+</div>
+
+<div class="gallery">
+    <img src="https://picsum.photos/id/1015/400/300" class="nature" onclick="openLightbox(0)">
+    <img src="https://picsum.photos/id/1011/400/300" class="nature" onclick="openLightbox(1)">
+    <img src="https://picsum.photos/id/1012/400/300" class="city" onclick="openLightbox(2)">
+    <img src="https://picsum.photos/id/1020/400/300" class="animals" onclick="openLightbox(3)">
+    <img src="https://picsum.photos/id/1024/400/300" class="animals" onclick="openLightbox(4)">
+    <img src="https://picsum.photos/id/1016/400/300" class="city" onclick="openLightbox(5)">
+    <img src="https://picsum.photos/id/1015/400/300" class="nature" onclick="openLightbox(0)">
+    <img src="https://picsum.photos/id/1011/400/300" class="nature" onclick="openLightbox(1)">
+    <img src="https://picsum.photos/id/1012/400/300" class="city" onclick="openLightbox(2)">
+    <img src="https://picsum.photos/id/1020/400/300" class="animals" onclick="openLightbox(3)">
+    <img src="https://picsum.photos/id/1024/400/300" class="animals" onclick="openLightbox(4)">
+    <img src="https://picsum.photos/id/1016/400/300" class="city" onclick="openLightbox(5)">
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <button class="prev" onclick="prevImage()">❮</button>
+    <img id="lightbox-img">
+    <button class="next" onclick="nextImage()">❯</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
