@@ -1,0 +1,362 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+.gcontainer{
+    /* background-color: blue; */
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: 300px 1fr;
+    gap: 40px;
+    margin: auto;
+    margin-top: 40px
+}
+.sidebar{
+    height: 90vh;
+    background-color: rgb(44, 43, 41);
+    border-radius: 7px;
+    border: 1px solid #3a3a3a;
+    padding: 40px;
+    position:sticky;
+    top: 40px;
+
+
+}
+.main{
+    background-color: rgb(41, 41, 38);
+    height: auto;
+    padding: 40px;
+}
+    
+.profile{
+    text-align: center;
+    
+    
+}
+.profile img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    /* border: 1px solid rgb(123, 115, 100); */
+    /* box-shadow: 0px 0px 10px 7px salmon ; */
+    animation: 
+    chhotomoto 3s ease backwards;
+    
+    animation-delay: 1s;
+    
+}
+
+@keyframes chhotomoto {
+  from {
+    box-shadow: 0 0 5px rgba(0, 128, 255, 0.3);
+    transform: scale(0.7);
+  }
+  to {
+    box-shadow: 0 0 25px rgba(104, 86, 43, 0.947);
+    transform: scale(1);
+  }
+}
+.profile h1{
+    color: white;
+    font-family: serif;
+    font-weight: 200;
+    margin: 10px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.profile p{
+    background-color: black;
+    color: burlywood;
+    padding: 5px;
+    display: inline;
+    border-radius: 5px;
+    font-size: small;
+    
+}
+.contact{
+    border-top: 0.1px solid white;
+    margin-top: 20px;
+   padding-top: 20px;
+    /* text-decoration: none; */
+   
+}
+.contact a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+label{
+    color: rgb(125, 137, 148);
+    font-size: small;
+}
+
+.cd{
+    margin-top: 10px;
+}
+
+.social{
+    border-top: 1px solid white;
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+.social img{
+    height: 24px;
+    width: 24px;
+    margin-left: 5px;
+    filter: grayscale(1) invert(1);
+}
+
+.social img:hover{
+       filter: grayscale(0) invert(0);
+}
+
+#navigation{
+    
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid wheat;
+
+}
+nav{
+    display: flex;
+    justify-content:end;
+    gap: 20px;
+    
+}
+nav a{
+    color: #5a5858;
+    text-decoration: none;
+}
+nav a:hover{
+    color:rgb(181, 173, 70) ;
+}
+.active{
+    color: rgb(181, 173, 70);
+}
+.heading{
+    color: #e0e0e0;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+.para{
+    color: rgb(163, 163, 158);
+    text-align: justify;
+    
+}
+.line{
+    height: 5px;
+    width: 60px;
+    background-color: rgb(181, 181, 56);
+    margin-bottom: 15px;
+}
+#about{
+    margin-bottom: 15px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+    gap: 30px;
+    
+}
+.item{
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(61, 55, 55);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.item:hover{
+    box-shadow: 5px 5px 10px ;
+    transform: scale(1.1);
+    
+}
+.item h3{
+    color: aliceblue;
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.item img{
+    width: 48px;
+    height: 48px;
+    filter: invert(75%) sepia(50%) saturate(500%);
+}
+#education{
+    margin-top: 20px;
+    color: rgb(202, 207, 212);
+}
+#education h2{
+    font-size: 1rem;
+}
+.institute{
+    font-style: italic;
+    color: rgb(163, 163, 158);
+}
+#education {
+    
+}
+
+#portfolio{
+    margin-top: 30px;
+}
+
+.project-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    color: #e0e0e0;
+    margin-top: 30px;
+}
+.project img{
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.project{
+   
+    overflow: hidden;
+    background-color: black;
+    border-radius: 10px;
+    transition: transform 0.5s ease , box-shadow 0.5s ease;
+
+    
+}
+.project:hover{
+    transform: translateY(-10px);
+    box-shadow:0px 0px 10px 5px #000000;
+}
+
+.card{
+   
+padding: 20px;
+   
+}
+
+.card span{
+    background-color: rgb(50, 49, 49);
+    border-radius: 5px;
+    color: darkgoldenrod;
+    padding: 5px;
+    font-size: smaller;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.card h3{
+    margin-bottom: 7px;
+}
+
+.card p{
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+/* footer{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+} */
+
+@media screen and (max-width:1200px) {
+    .gcontainer{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .sidebar{
+        position: static;
+        height: auto;
+    }
+}
+
+/* @media screen and (max-width:750px) {
+    .project-container{
+        grid-template-columns: 1fr;
+    }
+
+    #navigation nav {
+        /* Adjust nav for smaller screens */
+        /* justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .sidebar{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+    .social{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: end;
+        
+    }
+    .contact{
+    border-top: 0px solid white;
+    }
+    .social{
+    border-top: 0px solid white;
+    margin-top: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    }
+    .social img{
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+    filter: grayscale(1) invert(1);
+    }
+} */ 
+
+@media screen and (max-width: 750px) {
+
+  .sidebar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "profile contact"
+      "profile social";
+    gap: 20px;
+    align-items: center;
+  }
+  .contact{
+    border-top: 0px solid white;
+    }
+
+  .profile{
+    grid-area: profile;
+    text-align: center;
+  }
+
+  .contact{
+    grid-area: contact;
+    text-align: start;
+    margin-left: 30px;
+  }
+
+  .social{
+    grid-area: social;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .social img{
+    height: 30px;
+    width: 30px;
+    filter: grayscale(1) invert(1);
+  }
+  
+  
+}
