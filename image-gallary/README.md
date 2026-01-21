@@ -23,9 +23,24 @@ A responsive and interactive Image Gallery built using **HTML, CSS, and JavaScri
 2. Click on any image to view in lightbox mode
 3. Use Next/Prev buttons or keyboard arrows to navigate
 
-## 📸 Preview
+## 📂 Projects with Live Demos
 
-(Add screenshots here later)
+### 🌐 Portfolio Website
+A personal portfolio website showcasing skills and projects  
+🔗 Live Demo:  
+https://suresh8290.github.io/CodeAlpha_tasks/portfolio/
+
+### 🖼️ Image Gallery
+A responsive image gallery using HTML, CSS, and JavaScript  
+🔗 Live Demo:  
+https://suresh8290.github.io/CodeAlpha_tasks/image-gallary/
+
+### 🧮 Calculator
+A basic calculator with keyboard support and responsive UI  
+🔗 Live Demo:  
+https://suresh8290.github.io/CodeAlpha_tasks/calculator/
+
+---
 
 ## 🎯 Purpose
 
