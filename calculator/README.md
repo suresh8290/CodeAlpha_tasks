@@ -2,6 +2,15 @@
 
 A simple and responsive calculator built using **HTML, CSS, and JavaScript**.
 
+## 📂 Project with Live Demo
+
+### 🧮 Calculator
+A basic calculator with keyboard support and responsive UI  
+🔗 Live Demo:  
+https://suresh8290.github.io/CodeAlpha_tasks/calculator/
+
+---
+
 ## 🚀 Features
 
 - Perform basic arithmetic operations (+, −, ×, ÷)
