@@ -11,6 +11,15 @@ A responsive and interactive Image Gallery built using **HTML, CSS, and JavaScri
 - Category-based image filtering
 - Keyboard navigation support
 
+## 📂 Project with Live Demo
+
+### 🖼️ Image Gallery
+A responsive image gallery using HTML, CSS, and JavaScript  
+🔗 Live Demo:  
+https://suresh8290.github.io/CodeAlpha_tasks/image-gallary/
+
+---
+
 ## 🛠 Tech Stack
 
 - HTML5
@@ -22,15 +31,6 @@ A responsive and interactive Image Gallery built using **HTML, CSS, and JavaScri
 1. Open `index.html` in any web browser
 2. Click on any image to view in lightbox mode
 3. Use Next/Prev buttons or keyboard arrows to navigate
-
-## 📂 Project with Live Demos
-
-### 🖼️ Image Gallery
-A responsive image gallery using HTML, CSS, and JavaScript  
-🔗 Live Demo:  
-https://suresh8290.github.io/CodeAlpha_tasks/image-gallary/
-
----
 
 ## 🎯 Purpose
 
